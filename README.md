@@ -8,7 +8,7 @@ To build simple app that fetches and displays the status of the different train 
 
 - As a user I would like a colour theme that relates to the colour of the train line of which I am searching.
 
-- As a user I would like the page to update regualrly if I leave the page idel.
+- As a user I would like the page to update regualrly if I leave the page idle.
 
 - As a user I would like to be able to see when the information was last updated
 
