@@ -10,7 +10,10 @@
     <main>
         <form method="get" action="/status">
             <select id="lines_dropdown" name="line">
-                <option value="northern">northern</option>
+                {% for i in range(len) %}
+                <!-- make the placeholder equal to the value if the value exists otherwise let the default be the top of the list -->
+                <option value="{{ lines[i] }}">{{ lines[i] }}</option>
+                {% endfor %}
             </select>
             <input type="submit">
         </form>
